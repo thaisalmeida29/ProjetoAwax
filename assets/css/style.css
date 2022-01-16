@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     font-family: 'Montserrat';
     overflow-x: hidden;
@@ -27,8 +25,6 @@ header {
 
 .logo {
     width: 100px;
-
-
 }
 
 .logoimg {
@@ -36,14 +32,12 @@ header {
     height: 80px;
     background-color: #b28756;
     border-radius: 40px;
-
 }
 
 .menu {
     flex: 1;
     display: flex;
     justify-content: flex-end;
-
 }
 
 .menu ul,
@@ -68,7 +62,6 @@ header {
     align-items: center;
     border-bottom: 5px solid #000;
     font-size: 15px;
-
 }
 
 .menu li a:hover,
@@ -76,7 +69,6 @@ header {
     border-bottom: 5px solid #b28756;
     color: #ccc;
 }
-
 
 .banner {
     height: calc(100vh - 100px);
@@ -90,8 +82,6 @@ header {
 .banner .sliders {
     width: 1000vw;
     height: 100%;
-
-
 }
 
 .banner .slide {
@@ -99,7 +89,6 @@ header {
     height: 100%;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);
-
 }
 
 .banner .slidearea {
@@ -116,8 +105,6 @@ header {
     font-weight: bold;
     font-size: 60px;
     line-height: 65px;
-
-
 }
 
 .banner h1 span {
@@ -131,8 +118,8 @@ header {
     line-height: 10px;
 }
 
-.banner a {
-    display: block;
+.button {
+    display: inline-block;
     background-color: #b28756;
     color: #fff;
     text-transform: uppercase;
@@ -142,7 +129,9 @@ header {
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 20px;
+
 }
+
 
 .banner .sliders_pointers {
     width: 100vw;
@@ -152,7 +141,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .banner .pointer {
@@ -170,7 +158,6 @@ header {
 }
 
 .default {
-    background-color: red;
     width: 100vw;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -183,17 +170,79 @@ header {
     font-weight: 600;
 }
 
-.default .section-title { 
+.default .section-title {
     font-size: 20px;
-   
-
 }
 
 .default .section-desc {
-    font-size: 13px;
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .default .section-body {
     max-width: 1140px;
     margin: auto;
+}
+
+.default.light {
+    background-color: #f7f7f7;
+
+}
+
+.default.light .section-title,
+.default.light .section-body {
+    color: #000;
+}
+
+.default.dark {
+    background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+CSS DE ÁREAS ESPECIFICAS
+*/
+
+.section-aboutus{
+    display: flex;
+}
+
+.section-aboutus--left {
+    flex: 1;
+
+}
+
+.section-aboutus--left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+    
+.section-aboutus--right {
+    width: 520px;
+    text-align: center;
+
+}
+.section-aboutus--right img {
+    width: 350px;
+    box-shadow: 0px 8px 10px #333;
 }
