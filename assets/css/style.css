@@ -638,119 +638,141 @@ CSS DE ÁREAS ESPECIFICAS
 .button--dark.active {
     background-color: #b28756;
 }
+
 .premium {
-    background-color:#FFF !important;
-    border-top:1px solid #CCC;
+    background-color: #FFF !important;
+    border-top: 1px solid #CCC;
 }
+
 .premium .section-body {
-    max-width:initial;
+    max-width: initial;
 }
+
 .section-premium {
-    overflow:hidden;
+    overflow: hidden;
 }
+
 .section-premium a {
-    margin-top:30px;
+    margin-top: 30px;
 }
+
 .section-premium .sliders {
-    width:1000vw;
-    height:100%;
+    width: 1000vw;
+    height: 100%;
 }
+
 .section-premium .slide {
-    width:100vw;
-    height:100%;
-    display:inline-block;
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
 }
+
 .section-premium .slidearea {
-    display:flex;
-    height:100%;
+    display: flex;
+    height: 100%;
     justify-content: center;
-    align-items:center;
-    max-width:1140px;
-    border-bottom:1px solid #CCC;
-    margin:auto;
-    padding-bottom:40px;
+    align-items: center;
+    max-width: 1140px;
+    border-bottom: 1px solid #CCC;
+    margin: auto;
+    padding-bottom: 40px;
 }
+
 .section-premium--left {
-    flex:1;
-    text-align:right;
+    flex: 1;
+    text-align: right;
 }
+
 .section-premium--left img {
-    width:300px;
-    margin-right:30px;
+    width: 300px;
+    margin-right: 30px;
 }
+
 .section-premium--right {
-    flex:1;
+    flex: 1;
 }
+
 .section-premium--item {
-    display:flex;
-    margin-bottom:20px;
+    display: flex;
+    margin-bottom: 20px;
 }
+
 .section-premium--item img {
-    width:20px;
-    height:20px;
-    margin-right:20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
 }
+
 .section-premium--item div {
-    flex:1;
-    color:#999;
-    line-height:20px;
+    flex: 1;
+    color: #999;
+    line-height: 20px;
 }
+
 .section-premium--item div h4 {
-    color:#000;
-    font-size:17px;
-    font-weight:600;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .section-premium .sliders-pointers {
-    width:100vw;
-    height:20px;
-    display:flex;
+    width: 100vw;
+    height: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:40px;
+    margin-top: 40px;
 }
+
 .section-premium .pointer {
-    width:15px;
-    height:15px;
-    border:2px solid #B28756;
-    border-radius:8px;
-    margin-left:5px;
-    margin-right:5px;
-    cursor:pointer;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
 }
+
 .section-premium .pointer.active {
-    background-color:#B28756;
+    background-color: #B28756;
 }
 
 .section-facts {
     display: flex;
 }
+
 .section-fact {
     flex: 1;
     text-align: center;
     padding: 15px;
 
 }
+
 .section-fact h3 {
     color: #b28756;
     font-size: 45px;
-  
+
 }
+
 .section-fact-line {
-    width:20px;
-    border-bottom:2px solid #B28756;
-    margin:auto;
+    width: 20px;
+    border-bottom: 2px solid #B28756;
+    margin: auto;
 }
+
 .section-fact h4 {
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 20px;
 }
+
 .section-fact p {
     font-size: 13px;
     color: #999;
     margin-top: 10px;
 }
+
 .section-share {
     display: flex;
     justify-content: center;
@@ -759,50 +781,58 @@ CSS DE ÁREAS ESPECIFICAS
     background-color: #fff;
     color: #999;
 }
+
 .section-share--legend {
     display: flex;
     align-items: center;
     margin-right: 40px;
 }
+
 .section-share--legend img {
     margin-right: 10px;
 }
 
 .section-share--item {
-    font-size:12px;
-    margin-right:20px;
-    display:flex;
-    align-items:center;
-    cursor:pointer;
+    font-size: 12px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
-.section-share--icon  {
+
+.section-share--icon {
     width: 30px;
     height: 30px;
     border-radius: 15px;
-    margin-right:5px;
-    display:flex;
+    margin-right: 5px;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ccc;
 }
+
 .section-share--icon img {
     height: 12px;
 }
 
 .section-share--icon.twitter {
-    background-color:#34c5f0;
+    background-color: #34c5f0;
 }
+
 .section-share--icon.linkedin {
-    background-color:#127cb4;
+    background-color: #127cb4;
 }
+
 .section-share--icon.facebook {
-    background-color:#336297;
+    background-color: #336297;
 }
+
 .section-share--icon.googleplus {
-    background-color:#e74237;
+    background-color: #e74237;
 }
+
 .section-share--icon.pinterest {
-    background-color:#b71c29;
+    background-color: #b71c29;
 }
 
 .section-contact {
@@ -815,13 +845,13 @@ CSS DE ÁREAS ESPECIFICAS
 .section-contact input[type=text],
 .section-contact textarea {
     display: block;
-    width:100%;
-    height:40px;
-    border:0;
-    background:transparent;
-    border-bottom:1px solid #CCC;
-    outline:0;
-    margin-top:10px;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    margin-top: 10px;
 
 
 }
@@ -830,12 +860,120 @@ CSS DE ÁREAS ESPECIFICAS
     height: 100px;
     resize: none;
 }
+
 .section-contact--split {
     display: flex;
 }
+
 .section-contact--split input:first-child {
-    margin-right:20px;
+    margin-right: 20px;
 }
+
 .section-contact .button {
     cursor: pointer;
+}
+
+.section-map {
+    background-image: url('../images/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+
+
+}
+
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+
+}
+
+.section-map--info-item-img img {
+    width: 15px;
+    height: auto;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+
+.footer-social a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.footer--area {
+    max-width: 1140px;
+    margin: auto;
+    color: #FFF;
+    display: flex;
+
+}
+
+.footer--item {
+    flex: 1;
+
+}
+
+.footer--item.area2 {
+    color: #999;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0 10px 10px 10px;
+}
+
+.footer--item.area3 form {
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer--item.area3 input {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
 }
