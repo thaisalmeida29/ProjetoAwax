@@ -1,5 +1,5 @@
 {
-  "name": "projetoawax",
+  "name": "ProjetoAwax",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/thaisalmeida29/ProjetoAwax/issues"
   },
-  "homepage": "https://github.com/thaisalmeida29/ProjetoAwax"
+  "homepage": "http://thaisalmeida29.github.io/ProjetoAwax"
 }
